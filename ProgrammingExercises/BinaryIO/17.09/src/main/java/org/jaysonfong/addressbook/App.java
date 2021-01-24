@@ -39,7 +39,6 @@ import javafx.scene.control.Tooltip;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import org.jaysonfong.addressbook.io.Address;
 import org.jaysonfong.addressbook.io.AddressBookFile;
