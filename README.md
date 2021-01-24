@@ -3,4 +3,4 @@ Programming projects for Java Programming III, primarily based upon [Y. Daniel L
 
 | Chapter | Assignment |
 | --- | --- | 
-| [17: Binary I/O](ProgrammingExercises/BinaryIO) | [17.09: Address Book](ProgrammingExercises/BinaryIO/17.09/README.md) |
+| [17: Binary I/O](ProgrammingExercises/BinaryIO) | [17.09: Address Book](ProgrammingExercises/BinaryIO/17.09) |
