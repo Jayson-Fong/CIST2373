@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/LoanService/loanService?wsdl" uri="src/conf/xml-resources/web-service-references/loanService/wsdl/localhost_8080/LoanService/loanService.wsdl"/>
+    <system systemId="http://localhost:8080/LoanService/loanService?xsd=1" uri="src/conf/xml-resources/web-service-references/loanService/wsdl/localhost_8080/LoanService/loanService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/LoanService/LoanService?wsdl" uri="src/conf/xml-resources/web-service-references/loanService/wsdl/localhost_8080/LoanService/LoanService.wsdl"/>
+    <system systemId="http://localhost:8080/LoanService/LoanService?xsd=1" uri="src/conf/xml-resources/web-service-references/loanService/wsdl/localhost_8080/LoanService/LoanService.xsd_1.xsd"/>
+</catalog>

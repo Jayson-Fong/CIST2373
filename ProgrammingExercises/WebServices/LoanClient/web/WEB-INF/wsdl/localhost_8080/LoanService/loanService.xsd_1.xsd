@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.3 (RELEASE-2.4.3-ad3323c; 2019-01-21T17:46:06+0000) JAXWS-RI/2.3.2 JAXWS-API/2.3.2 JAXB-RI/2.3.2 JAXB-API/2.3.2 git-revision#unknown. --><xs:schema xmlns:tns="http://service.loan.jaysonfong.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://service.loan.jaysonfong.org/">
+
+<xs:element name="monthlyPayment" type="tns:monthlyPayment"/>
+
+<xs:element name="monthlyPaymentResponse" type="tns:monthlyPaymentResponse"/>
+
+<xs:element name="totalPayment" type="tns:totalPayment"/>
+
+<xs:element name="totalPaymentResponse" type="tns:totalPaymentResponse"/>
+
+<xs:complexType name="monthlyPayment">
+<xs:sequence>
+<xs:element name="amount" type="xs:double"/>
+<xs:element name="years" type="xs:int"/>
+<xs:element name="apy" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="monthlyPaymentResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="totalPayment">
+<xs:sequence>
+<xs:element name="amount" type="xs:double"/>
+<xs:element name="years" type="xs:int"/>
+<xs:element name="apy" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="totalPaymentResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
